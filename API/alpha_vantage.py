@@ -21,7 +21,7 @@ print(percent_diff)
 last_change = percent_diff[-1]
 
 server = smtplib.SMTP_SSL("smtp.gmail.com", 465)
-server.login("jusbot75@gmail.com", "Pandass*^8520")
+server.login("jusbot75@gmail.com", "password")
 if abs(last_change) > .0004:
   server.sendmail("jusbot75@gmail.com", "joeyisthebest69@gmail.com","GUSH is worth selling right now")
 server.quit()
